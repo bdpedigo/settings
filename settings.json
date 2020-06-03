@@ -1,0 +1,86 @@
+{
+    "python.linting.pylintEnabled": false,
+    "python.linting.pydocstyleEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=88",
+        "--ignore=W291,W605,W293,E203,W391,E265,W503",
+        "--enable=W0614"
+    ],
+    "autoDocstring.docstringFormat": "numpy",
+    "python.formatting.provider": "black",
+    "editor.formatOnSave": true,
+    "files.associations": {
+        "*.rmd": "markdown"
+    },
+    "python.dataScience.jupyterLaunchTimeout": 10000,
+    "python.dataScience.searchForJupyter": false,
+    "python.dataScience.sendSelectionToInteractiveWindow": true,
+    "window.zoomLevel": 1,
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": true,
+    "editor.renderControlCharacters": true,
+    "editor.renderWhitespace": "none",
+    "editor.rulers": [
+        88
+    ],
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "python.dataScience.askForKernelRestart": false,
+    "python.dataScience.useDefaultConfigForJupyter": false,
+    "python.dataScience.enableAutoMoveToNextCell": false,
+    "python.dataScience.enablePlotViewer": false,
+    "terminal.integrated.inheritEnv": false,
+    "editor.tabCompletion": "on",
+    "editor.snippetSuggestions": "top",
+    "todo-tree.tree.autoRefresh": true,
+    "todo-tree.highlights.defaultHighlight": {
+        "type": "tag",
+    },
+    "todo-tree.highlights.customHighlight": {
+        "TODO": {
+            "foreground": "black",
+            "background": "green",
+            "iconColour": "green",
+            "icon": "check",
+        },
+        "FIXME": {
+            "foreground": "black",
+            "background": "red",
+            "iconColour": "red",
+            "icon": "bug"
+        },
+        "REVIEW": {
+            "foreground": "black",
+            "background": "cyan",
+            "iconColour": "lightblue",
+            "icon": "eye"
+        },
+        "HACK": {
+            "foreground": "black",
+            "background": "#FFA500",
+            "iconColour": "orange",
+            "icon": "alert"
+        },
+        "REF": {
+            "foreground": "black",
+            "background": "grey",
+            "iconColour": "grey",
+            "icon": "link",
+        }
+    },
+    "todo-tree.general.tags": [
+        "TODO",
+        "FIXME",
+        "REVIEW",
+        "HACK",
+        "REF"
+    ],
+    "todo-tree.tree.showScanModeButton": false,
+    "cSpell.enableFiletypes": [
+        "!python"
+    ],
+    "files.autoSave": "afterDelay",
+    "launch": {},
+    "workbench.settings.useSplitJSON": false
+}
